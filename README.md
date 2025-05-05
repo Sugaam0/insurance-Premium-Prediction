@@ -19,12 +19,12 @@ Built using **Django** and a trained **Machine Learning model**.
    git clone (link of repo)
    cd insurance-premium-prediction
    
-2. Create and Activate Virtual Environment
+2. Create and Activate Virtual Environment :- 
     python -m venv venv
     source venv/bin/activate
    
-4. Install Dependencies
+4. Install Dependencies :-
    pip install -r requirements.txt
    
-5. Run Django Development Server
+5. Run Django Development Server :-
      python manage.py runserver
