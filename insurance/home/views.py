@@ -17,7 +17,7 @@ def prediction(request):
         # print("enter into the post request")
         age = int(request.POST.get('age'))
         sex = int(request.POST.get('sex'))
-        bmi = int(request.POST.get('bmi'))
+        bmi = float(request.POST.get('bmi'))
         children = int(request.POST.get('children'))
         smoker = int(request.POST.get('smoker'))
         region = int(request.POST.get('region'))
